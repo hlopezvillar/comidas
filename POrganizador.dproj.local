@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/03/22 12:16:47.000.963,=C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/01/28 09:32:33.000.689,=C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/08/29 13:21:10.000.663,=C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2019/11/13 17:32:54.000.486,=C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2021/01/23 17:23:09.000.151,=C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/01/23 18:57:47.000.961,C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\Unit1.fmx=C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\FPrincipal.fmx</Transaction>
+    <Transaction>2021/01/23 18:57:47.000.961,C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\FPrincipal.pas</Transaction>
+    <Transaction>2021/01/23 18:58:12.000.289,C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\usr\hlv\prg\OrganizadorComidas\POrganizador.dproj</Transaction>
+    <Transaction>2021/01/23 19:12:49.000.631,=C:\usr\hlv\prg\OrganizadorComidas\organizador.db</Transaction>
+    <Transaction>2021/01/23 19:25:00.000.214,C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\FPrincipal.fmx=C:\usr\hlv\prg\OrganizadorComidas\FPrincipal.fmx</Transaction>
+    <Transaction>2021/01/23 19:25:00.000.214,C:\Users\hlopez\Documents\Embarcadero\Studio\Projects\FPrincipal.pas=C:\usr\hlv\prg\OrganizadorComidas\FPrincipal.pas</Transaction>
+    <Transaction>2021/01/29 18:11:41.000.323,=C:\usr\hlv\prg\OrganizadorComidas\Unit2.pas</Transaction>
+    <Transaction>2021/01/29 18:13:11.000.354,C:\usr\hlv\prg\OrganizadorComidas\FPrincipal.fmx=C:\usr\hlv\prg\OrganizadorComidas\FListado.fmx</Transaction>
+    <Transaction>2021/01/29 18:13:11.000.354,C:\usr\hlv\prg\OrganizadorComidas\FPrincipal.pas=C:\usr\hlv\prg\OrganizadorComidas\FListado.pas</Transaction>
+    <Transaction>2021/01/29 18:14:29.000.377,C:\usr\hlv\prg\OrganizadorComidas\Unit2.fmx=C:\usr\hlv\prg\OrganizadorComidas\FIntroduccionRecetas.fmx</Transaction>
+    <Transaction>2021/01/29 18:14:29.000.377,C:\usr\hlv\prg\OrganizadorComidas\Unit2.pas=C:\usr\hlv\prg\OrganizadorComidas\FIntroduccionRecetas.pas</Transaction>
+    <Transaction>2021/02/20 19:15:26.000.892,=C:\usr\hlv\prg\OrganizadorComidas\Unit1.pas</Transaction>
+    <Transaction>2021/02/20 19:24:46.000.075,C:\usr\hlv\prg\OrganizadorComidas\FPrincipal.pas=C:\usr\hlv\prg\OrganizadorComidas\Unit1.pas</Transaction>
+    <Transaction>2021/02/20 19:24:46.000.075,C:\usr\hlv\prg\OrganizadorComidas\FPrincipal.fmx=C:\usr\hlv\prg\OrganizadorComidas\Unit1.fmx</Transaction>
+    <Transaction>2021/02/20 19:25:37.000.434,=C:\usr\hlv\prg\OrganizadorComidas\Unit1.pas</Transaction>
+    <Transaction>2021/02/20 19:28:19.000.372,C:\usr\hlv\prg\OrganizadorComidas\GestionDB.pas=C:\usr\hlv\prg\OrganizadorComidas\Unit1.pas</Transaction>
+    <Transaction>2021/02/21 14:14:32.000.907,=C:\usr\hlv\prg\OrganizadorComidas\Unit1.pas</Transaction>
+    <Transaction>2021/02/21 14:15:02.000.630,C:\usr\hlv\prg\OrganizadorComidas\FPlanificacionSemanal.fmx=C:\usr\hlv\prg\OrganizadorComidas\Unit1.fmx</Transaction>
+    <Transaction>2021/02/21 14:15:02.000.630,C:\usr\hlv\prg\OrganizadorComidas\FPlanificacionSemanal.pas=C:\usr\hlv\prg\OrganizadorComidas\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="" Android=""/>
+	</ActiveMobileDevice>
+</BorlandProject>

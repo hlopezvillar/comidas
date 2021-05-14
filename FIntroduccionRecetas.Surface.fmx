@@ -1,0 +1,83 @@
+inherited FormIntroRecetas_Surface: TFormIntroRecetas_Surface
+  ClientHeight = 1920
+  ClientWidth = 1080
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    Position.Y = 1816.000000000000000000
+    Size.Width = 1080.000000000000000000
+    inherited MemoMensajes: TMemo
+      Viewport.Width = 145.000000000000000000
+      Viewport.Height = 104.000000000000000000
+    end
+    inherited BCierraReceta: TButton
+      Position.X = 946.000000000000000000
+    end
+  end
+  inherited Panel2: TPanel
+    Size.Width = 1080.000000000000000000
+    inherited MemoNombrePlato: TMemo
+      Size.Width = 929.000000000000000000
+      Viewport.Width = 929.000000000000000000
+      Viewport.Height = 25.000000000000000000
+    end
+    inherited LabelCantidad: TLabel
+      Position.X = 824.000000000000000000
+    end
+    inherited LVAlimentos: TListView
+      Size.Width = 739.000000000000000000
+    end
+    inherited LVTipos: TListView
+      Position.X = 938.000000000000000000
+    end
+    inherited AddAlimento: TButton
+      Position.X = 1018.000000000000000000
+    end
+    inherited EditAlimento: TEdit
+      Size.Width = 739.000000000000000000
+    end
+    inherited EditTipo: TEdit
+      Position.X = 938.000000000000000000
+    end
+    inherited EditCantidad: TNumberBox
+      Position.X = 874.000000000000000000
+    end
+  end
+  inherited PanelPrincipal: TPanel
+    Size.Width = 1080.000000000000000000
+    Size.Height = 1631.000000000000000000
+    inherited MemoReceta: TMemo
+      Size.Width = 819.000000000000000000
+      Size.Height = 1631.000000000000000000
+      Viewport.Width = 819.000000000000000000
+      Viewport.Height = 1631.000000000000000000
+    end
+    inherited LVIngredientes: TListView
+      Position.X = 819.000000000000000000
+      Size.Height = 1631.000000000000000000
+    end
+  end
+  inherited QEtiquetas: TFDQuery
+    ParamData = <
+      item
+        Name = 'ETIQUETA'
+        DataType = ftString
+        ParamType = ptInput
+        Value = '%'
+      end
+      item
+        Name = 'PLATO'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = 0
+      end>
+  end
+  inherited QEtiquetasAsignada: TFDQuery
+    ParamData = <
+      item
+        Name = 'PLATO'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = 3
+      end>
+  end
+end

@@ -1,0 +1,162 @@
+inherited FormIntroRecetas_NmXhdpiPh: TFormIntroRecetas_NmXhdpiPh
+  ClientHeight = 615
+  ClientWidth = 400
+  DesignerMasterStyle = 3
+  inherited Panel1: TPanel
+    Position.Y = 511.000000000000000000
+    Size.Width = 400.000000000000000000
+    inherited MemoMensajes: TMemo
+      Size.Width = 400.000000000000000000
+      Viewport.Width = 400.000000000000000000
+      Viewport.Height = 104.000000000000000000
+    end
+    inherited Label1: TLabel
+      Position.Y = 80.000000000000000000
+    end
+    inherited LVEtiquetasAsignadas: TListView
+      ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+        end>
+    end
+    inherited EditEtiqueta: TEdit
+      Anchors = [akLeft, akTop, akRight]
+      Position.Y = 80.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+    inherited LVEtiquetasLibres: TListView
+      ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+        end>
+    end
+  end
+  inherited Panel2: TPanel
+    Size.Width = 400.000000000000000000
+    inherited MemoNombrePlato: TMemo
+      Size.Width = 249.000000000000000000
+      Viewport.Width = 249.000000000000000000
+      Viewport.Height = 25.000000000000000000
+    end
+    inherited LabelCantidad: TLabel
+      Position.X = 144.000000000000000000
+    end
+    inherited LVAlimentos: TListView
+      Size.Width = 59.000000000000000000
+      ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Text1'
+          AppearanceClassName = 'TTextObjectAppearance'
+        end>
+    end
+    inherited LVTipos: TListView
+      Position.X = 314.000000000000000000
+    end
+    inherited EditAlimento: TEdit
+      Size.Width = 59.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+    inherited EditTipo: TEdit
+      Position.X = 314.000000000000000000
+      Size.Height = 32.000000000000000000
+    end
+  end
+  inherited PanelPrincipal: TPanel
+    Size.Width = 400.000000000000000000
+    Size.Height = 326.000000000000000000
+    inherited MemoReceta: TMemo
+      Size.Width = 217.000000000000000000
+      Size.Height = 326.000000000000000000
+      Viewport.Width = 217.000000000000000000
+      Viewport.Height = 326.000000000000000000
+    end
+    inherited LVIngredientes: TListView
+      Position.X = 217.000000000000000000
+      Position.Y = 96.000000000000000000
+      Size.Width = 183.000000000000000000
+      Size.Height = 326.000000000000000000
+      ItemAppearance.HeaderHeight = 1
+      ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+        item
+          AppearanceObjectName = 'Alimento'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.Size = 15.000000000000000000
+          Appearance.Font.StyleExt = {00070000000000000004000000}
+          Appearance.TextAlign = Leading
+          Appearance.TextVertAlign = Leading
+          Appearance.WordWrap = True
+          Appearance.TextColor = claCornflowerblue
+          Appearance.Width = 156.000000000000000000
+          Appearance.Height = 25.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'CAntidad'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.Size = 13.000000000000000000
+          Appearance.Font.StyleExt = {00070000000000000004000000}
+          Appearance.Width = 47.000000000000000000
+          Appearance.Height = 22.000000000000000000
+          Appearance.PlaceOffset.Y = 18.000000000000000000
+        end
+        item
+          AppearanceObjectName = 'Unidad'
+          AppearanceClassName = 'TTextObjectAppearance'
+          Appearance.Font.StyleExt = {00070000000000000004000000}
+          Appearance.TextAlign = Trailing
+          Appearance.Width = 113.000000000000000000
+          Appearance.Height = 22.000000000000000000
+          Appearance.Align = Trailing
+          Appearance.PlaceOffset.Y = 18.000000000000000000
+        end>
+      ItemAppearanceObjects.FooterObjects.Text.Width = 162.000000000000000000
+      ItemAppearanceObjects.FooterObjects.Text.PlaceOffset.Y = 3.000000000000000000
+    end
+  end
+  inherited QueryTipos: TFDQuery
+    Left = 168
+    Top = 328
+  end
+  inherited BindSourceDB1: TBindSourceDB
+    Left = 144
+    Top = 312
+  end
+  inherited BindSourceDB2: TBindSourceDB
+    Left = 128
+    Top = 368
+  end
+  inherited QueryIngredientes: TFDQuery
+    Active = True
+  end
+  inherited BindSourceDB3: TBindSourceDB
+    Left = 120
+    Top = 376
+  end
+  inherited QEtiquetas: TFDQuery
+    Active = True
+    ParamData = <
+      item
+        Name = 'ETIQUETA'
+        DataType = ftString
+        ParamType = ptInput
+        Value = '%'
+      end
+      item
+        Name = 'PLATO'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = 0
+      end>
+  end
+  inherited QEtiquetasAsignada: TFDQuery
+    Active = True
+    ParamData = <
+      item
+        Name = 'PLATO'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = 3
+      end>
+  end
+end

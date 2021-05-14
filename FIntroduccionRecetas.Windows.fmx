@@ -1,0 +1,50 @@
+inherited FormIntroRecetas_Windows: TFormIntroRecetas_Windows
+  DesignerMasterStyle = 0
+  inherited Panel1: TPanel
+    inherited MemoMensajes: TMemo
+      Viewport.Width = 145.000000000000000000
+      Viewport.Height = 104.000000000000000000
+    end
+  end
+  inherited Panel2: TPanel
+    inherited MemoNombrePlato: TMemo
+      Viewport.Width = 527.000000000000000000
+      Viewport.Height = 25.000000000000000000
+    end
+  end
+  inherited PanelPrincipal: TPanel
+    inherited MemoReceta: TMemo
+      Viewport.Width = 417.000000000000000000
+      Viewport.Height = 191.000000000000000000
+    end
+  end
+  inherited QueryTipos: TFDQuery
+    SQL.Strings = (
+      'SELECT TIPO FROM UNIDADES WHERE UPPER(TIPO) LIKE UPPER(:Tipo)'
+      'ORDER BY UPPER(TIPO) ASC')
+  end
+  inherited QEtiquetas: TFDQuery
+    ParamData = <
+      item
+        Name = 'ETIQUETA'
+        DataType = ftString
+        ParamType = ptInput
+        Value = '%'
+      end
+      item
+        Name = 'PLATO'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = 0
+      end>
+  end
+  inherited QEtiquetasAsignada: TFDQuery
+    ParamData = <
+      item
+        Name = 'PLATO'
+        DataType = ftInteger
+        ParamType = ptInput
+        Value = 3
+      end>
+  end
+end
