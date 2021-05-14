@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A7A68ADC-75B2-D1C6-E82D-4E8C7E2153E4" name="ALIMENTOS">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:51:10 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDALIMENTO" id="3581BE04-7AC0-947A-D92C-8EB72C6E5105">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:52:11 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="9822DBCC-2EEA-F2B5-4D68-FC3C4DDD3A08">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:52:11 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8AEF44E-B6FA-464F-AFC1-724E387A0EFD" name="ALIMENTOS_PK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:52:11 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3581BE04-7AC0-947A-D92C-8EB72C6E5105"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

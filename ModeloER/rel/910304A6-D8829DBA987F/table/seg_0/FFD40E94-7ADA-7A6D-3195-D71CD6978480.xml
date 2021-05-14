@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFD40E94-7ADA-7A6D-3195-D71CD6978480" name="INGREDIENTES">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:53:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPLATO" id="8E5AA1D7-BFB7-2133-49C0-CF6849DF40DA">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:55:23 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2918ABD7-7580-F48E-0ADF-CB5A4AF73382" referredColumn="988F75E4-087B-6B4D-2451-87532853211A"/>
+</associations>
+</Column>
+<Column name="IDALIMENTO" id="25CDED85-1EB6-4703-2FEA-D6BE7DF0D316">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:55:23 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="238CF6C0-A673-8589-D2AD-6FB38F8F99FD" referredColumn="3581BE04-7AC0-947A-D92C-8EB72C6E5105"/>
+</associations>
+</Column>
+<Column name="IDUNIDAD" id="111262EF-4A64-4D36-9811-9223018CF44B">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:55:23 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12BCB601-A300-0F42-476A-6E3BC9287B4F" referredColumn="02561F19-D20A-8A10-760F-BC5F24F921F1"/>
+</associations>
+</Column>
+<Column name="CANTIDAD" id="5AA5A454-3960-BF16-EDBA-BBA1097D48B7">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:55:23 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="417EEEC7-8C0C-4AF1-1D6D-F249800C9AEA" name="INGREDIENTES_PK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:55:23 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E5AA1D7-BFB7-2133-49C0-CF6849DF40DA"/>
+<colUsage columnID="25CDED85-1EB6-4703-2FEA-D6BE7DF0D316"/>
+<colUsage columnID="111262EF-4A64-4D36-9811-9223018CF44B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB46DCA3-C7D8-1802-FC5F-7EBA9F35F705" name="INGREDIENTES_UNIDADES_FK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:55:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111262EF-4A64-4D36-9811-9223018CF44B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC8FB7FB-B197-2C44-F2A4-7D072FF48EFE" name="INGREDIENTES_PLATOS_FK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:56:03 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E5AA1D7-BFB7-2133-49C0-CF6849DF40DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="15E6737A-79BD-24DA-FBCA-3E162D5F2B9B" name="INGREDIENTES_ALIMENTOS_FK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:56:32 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="25CDED85-1EB6-4703-2FEA-D6BE7DF0D316"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

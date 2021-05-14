@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="396C0715-745C-C63F-D6D1-5EE260D8DEAF" name="UNIDADES">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:50:07 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDUNIDAD" id="02561F19-D20A-8A10-760F-BC5F24F921F1">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:50:59 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO" id="1A172DFB-7257-5647-F068-8542D9051361">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:50:59 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="426FFF2F-C721-7CB5-612D-02E633D32053" name="UNIDADES_PK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:50:59 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02561F19-D20A-8A10-760F-BC5F24F921F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

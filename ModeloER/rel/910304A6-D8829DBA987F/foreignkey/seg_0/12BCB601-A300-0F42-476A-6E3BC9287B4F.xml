@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12BCB601-A300-0F42-476A-6E3BC9287B4F" containerWithKeyObject="FFD40E94-7ADA-7A6D-3195-D71CD6978480" localFKIndex="CB46DCA3-C7D8-1802-FC5F-7EBA9F35F705" name="INGREDIENTES_UNIDADES_FK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:55:31 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<referredTableLongName>UNIDADES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>396C0715-745C-C63F-D6D1-5EE260D8DEAF</referredTableID>
+<keyObject>426FFF2F-C721-7CB5-612D-02E633D32053</keyObject>
+<referredKeyID>426FFF2F-C721-7CB5-612D-02E633D32053</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDUNIDAD</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

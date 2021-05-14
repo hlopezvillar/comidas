@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2918ABD7-7580-F48E-0ADF-CB5A4AF73382" containerWithKeyObject="FFD40E94-7ADA-7A6D-3195-D71CD6978480" localFKIndex="FC8FB7FB-B197-2C44-F2A4-7D072FF48EFE" name="INGREDIENTES_PLATOS_FK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:56:03 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<referredTableLongName>PLATOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2061F0C4-082F-4611-D29E-B16C65F306D7</referredTableID>
+<keyObject>C11BA077-5F36-8265-AF28-2AAD81B3D139</keyObject>
+<referredKeyID>C11BA077-5F36-8265-AF28-2AAD81B3D139</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDPLATO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

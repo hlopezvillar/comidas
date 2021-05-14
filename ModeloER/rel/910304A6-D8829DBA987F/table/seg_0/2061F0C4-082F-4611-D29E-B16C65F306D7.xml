@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2061F0C4-082F-4611-D29E-B16C65F306D7" name="PLATOS">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:46:57 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<ordsAlias>table_1</ordsAlias>
+<abbreviation>PLATOS</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDPLATO" id="988F75E4-087B-6B4D-2451-87532853211A">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:49:54 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="8706133C-2141-4870-31F2-ED5CE6A91418">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:49:54 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECETA" id="B2CFC454-6525-1D52-F472-259F6776DF21">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:49:54 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C11BA077-5F36-8265-AF28-2AAD81B3D139" name="PLATOS_PK">
+<createdBy>hlopez</createdBy>
+<createdTime>2021-02-20 17:49:54 UTC</createdTime>
+<ownerDesignName>ModeloER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="988F75E4-087B-6B4D-2451-87532853211A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
